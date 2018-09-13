@@ -96,7 +96,7 @@ func createCache(cacheList map[string]map[string]string) {
 				executeCmd("rm -rf " + zipFileName)
 				c <- "Zip file " + zipFileName + " is created"
 			}else{
-				c <- "Nothing changed to cache !"
+				c <- "Nothing changed with folder " + folderName + " to cache !"
 			}
 
 			DeleteOldCacheFiles(folderName)
