@@ -4,7 +4,7 @@
 sudo curl -o /usr/local/bin/cache-tool https://raw.githubusercontent.com/framgiaci/cache-tool/master/dist/cache-tool && \ 
 sudo chmod +x /usr/local/bin/cache-tool
 
-// Or local build 
+// Or local build (Make sure you installed golang on your machine)
 
 go build -o cache-tool main.go
 mv cache-tool /usr/local/bin/
